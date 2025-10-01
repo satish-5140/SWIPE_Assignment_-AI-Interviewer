@@ -1,0 +1,12 @@
+[build]
+  # Netlify automatically detects 'npm run build' for Vite projects, 
+  # but we define it here explicitly for clarity.
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  # Redirect all traffic (paths) to the index.html with a 200 status code,
+  # ensuring that React Router handles the routing internally.
+  from = "/*"
+  to = "/index.html"
+  status = 200
