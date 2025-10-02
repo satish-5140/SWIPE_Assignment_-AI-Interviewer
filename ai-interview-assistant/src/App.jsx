@@ -32,7 +32,7 @@ const QUESTION_LEVELS = [
 ];
 
 const API_MODEL = 'gemini-2.5-flash-preview-05-20';
-const API_KEY = "AIzaSyDV-twuWsmfAEy7Tvf_O1PkfRaWaT09Tuk";
+const API_KEY = "";
 
 const initialCandidateState = {
   id: crypto.randomUUID(),
